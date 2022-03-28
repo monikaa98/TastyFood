@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>TastyFood</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <a class="active"  href="#">TastyFood</a>
+        <div class="navbar-right">
+            <a class="home" href="/home">Начало</a>
+            <a class="profile" href="/user/profile">Профил</a>
+            <a class="logout" href="/user/logout">Изход</a>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="update-box">
+        <h1 class="update-name">Актуализирай личната информация</h1>
+        <form class="form" th:action="@{/user/update}" th:object="${userUpdate}" th:method="POST">
+            <div class="container-update">
+                <label for="firstName"><h4>Име</h4></label>
+                <input th:value="${userUpdate.firstName}" type="text"
+                       name="firstName"
+                       id="firstName"
+                       placeholder="Име" title="enter your first name if any.">
+                <label for="lastName"><h4>Фамилия</h4></label>
+                <input th:value="${userUpdate.lastName}" type="text"
+                       name="lastName" id="lastName"
+                       placeholder="Фамилия" title="enter your last name if any.">
+                <label for="email"><h4>Имейл</h4></label>
+                <input th:value="${userUpdate.email}" type="email"  name="email"
+                       id="email"
+                       placeholder="Имейл" title="enter your email.">
+                <label ><b>Роля</b></label>
+                <select id="roleName" name="roleName"
+                        class="select-update" required>
+                    <option value="" selected>Изберете потребител или ресторантьор</option>
+                    <option th:each="o:${T(project.tastyfood.model.entity.enums.RoleName).values()}"
+                            th:text="${o}" th:value="${o}"></option>
+                </select>
+                <label for="password"><h4>Парола</h4></label>
+                <input type="password"  name="password" id="password"
+                       placeholder="Парола" title="enter your password.">
+                <label for="confirmPassword"><h4>Повтори парола</h4></label>
+                <input type="password" name="confirmPassword" id="confirmPassword"
+                       placeholder="Парола2" title="enter your password2.">
+                <button class="update-button" type="submit"><i
+                        class="glyphicon glyphicon-ok-sign"></i> Запази промените
+                </button>
+            </div>
+        </form>
+    </div>
+</main>
+<footer>
+    <div class="footer-update">
+        &copy;2021 Copyright:TastyFood
+    </div>
+</footer>
+</body>
+</html>

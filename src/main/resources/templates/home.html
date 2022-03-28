@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html  lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>TastyFood</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <a class="active"  href="#">TastyFood</a>
+        <div class="navbar-right">
+            <a class="add-town" th:if="${isRestaurateur}" href="/town/add">Добави град</a>
+            <a class="profile" href="/user/profile">Профил</a>
+            <a class="shopping-bag" th:if="${isUser}" href="/user/shopping-bag">Количка</a>
+            <a class="logout" href="/user/logout">Изход</a>
+     </div>
+        <div class="search-container-h">
+            <form  th:object="${searchForTownBindingModel}" th:action="@{/search/town}" method="POST" style="margin:auto;max-width:450px">
+                <input th:field="*{name}" type="text" placeholder="Търси град.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="name-city-no" th:if="${towns.isEmpty()}">Все още няма добавени градове!</div>
+    <div th:if="${!towns.isEmpty()}" class="container-search">
+    </div>
+    <div class="name-city-yes" th:if="${!towns.isEmpty()}" >Изберете вашия град</div>
+    <div class="row-town" >
+        <div class="column-town" th:each="t:${towns}" th:object="${t}">
+            <img class="imgTown"  th:src="*{pictureUrl}" alt="Town Picture">
+            <a th:if="${isUser}" th:text="*{name}" class="name-town" th:href="@{/restaurant/town-restaurants/(id=*{id})}">TownName</a>
+            <a th:if="${isAdmin}" th:text="*{name}" class="name-town-admin" th:href="@{/restaurant/town-restaurants/(id=*{id})}">TownName</a>
+            <a th:if="${isRestaurateur}" th:text="*{name}" class="name-town-restaurateur" th:href="@{/restaurant/town-restaurants/(id=*{id})}">TownName</a>
+            <div th:if="${isRestaurateur || isAdmin}" class="btn-delete-town" ><a th:href="@{/town/delete/(id=*{id})}" class="delete-town">Изтрий</a></div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="footer-home">
+        &copy;2021 Copyright:TastyFood
+    </div>
+</footer>
+</body>
+</html>
