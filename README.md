@@ -1,3 +1,4 @@
+![Екранна снимка (3015)](https://user-images.githubusercontent.com/82385604/160586987-47e7ce21-55f1-4203-9fc8-b50499fcaacd.png)
 # TastyFood
 Project about ordering food from different restaurants.
 
