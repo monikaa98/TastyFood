@@ -16,6 +16,7 @@ List of all functionalities
    10. Delete a meal from bag
    11. Add address for orders
    12. Search towns, restaurants and meals
+   13. Update profile
  ![Екранна снимка (3015)](https://user-images.githubusercontent.com/82385604/160587741-23758eb3-e6f3-4f5c-ab99-bb43d3fab939.png)
  ![Екранна снимка (3016)](https://user-images.githubusercontent.com/82385604/160587980-b3a761b3-2842-47c0-8e01-d303c601e1e2.png)
  ![Екранна снимка (3017)](https://user-images.githubusercontent.com/82385604/160588033-612f581e-d410-410d-bf4d-76371b87e936.png)
@@ -42,6 +43,12 @@ List of all functionalities
  ![Екранна снимка (3046)](https://user-images.githubusercontent.com/82385604/160592508-906aef62-f8ee-4102-b72d-698dbc606c67.png)
  ![Екранна снимка (3051)](https://user-images.githubusercontent.com/82385604/160593006-7635b554-15d8-49c8-a1c7-2495f6087fc2.png)
  ![Екранна снимка (3052)](https://user-images.githubusercontent.com/82385604/160593106-8d17fa89-c116-4240-8625-01f19f660120.png)
+ ![Екранна снимка (3034)](https://user-images.githubusercontent.com/82385604/160593488-b621049d-3f66-40ac-8ba8-a4fc2b5a7099.png)
+ ![Екранна снимка (3027)](https://user-images.githubusercontent.com/82385604/160593542-6bc8c9aa-85a9-4fd7-8eb2-3f7806d53b7b.png)
+ ![Екранна снимка (3047)](https://user-images.githubusercontent.com/82385604/160593615-5c80593b-11af-4919-b3fa-077be17df38e.png)
+
+
+
 
 
 
