@@ -21,6 +21,10 @@ List of all functionalities
  ![Екранна снимка (3017)](https://user-images.githubusercontent.com/82385604/160588033-612f581e-d410-410d-bf4d-76371b87e936.png)
  ![Екранна снимка (3018)](https://user-images.githubusercontent.com/82385604/160588507-82cb4d64-778e-4550-bf3b-4529301a71b5.png)
  ![Екранна снимка (3019)](https://user-images.githubusercontent.com/82385604/160588581-7caa54a8-1a95-4f6a-8b6c-e8e8b77edc11.png)
+ ![Екранна снимка (3053)](https://user-images.githubusercontent.com/82385604/160588973-4c6ae165-d896-4334-95da-f3df1c16daa9.png)
+ ![Екранна снимка (3054)](https://user-images.githubusercontent.com/82385604/160589035-fd9d8303-4460-4511-808e-d4f9dc3588d1.png)
+
+
  
 
 
