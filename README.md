@@ -1,4 +1,4 @@
-![Екранна снимка (3015)](https://user-images.githubusercontent.com/82385604/160586987-47e7ce21-55f1-4203-9fc8-b50499fcaacd.png)
+
 # TastyFood
 Project about ordering food from different restaurants.
 
@@ -16,3 +16,4 @@ List of all functionalities
    10. Delete a meal from bag
    11. Add address for orders
    12. Search towns, restaurants and meals
+![Екранна снимка (3015)](https://user-images.githubusercontent.com/82385604/160587446-77a03990-ee2b-483c-aca8-2f5c880984b4.png)
