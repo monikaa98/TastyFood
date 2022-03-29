@@ -40,11 +40,12 @@ List of all functionalities
  ![Екранна снимка (3044)](https://user-images.githubusercontent.com/82385604/160592389-69d24db9-5b31-4731-8942-e1c34962a6dc.png)
  ![Екранна снимка (3045)](https://user-images.githubusercontent.com/82385604/160592448-7231065a-ead6-424a-a790-00d87a9c5336.png)
  ![Екранна снимка (3027)](https://user-images.githubusercontent.com/82385604/160594088-ed58e5a1-5a05-4e6e-b3f4-466750ae2a5f.png)
-![Екранна снимка (3034)](https://user-images.githubusercontent.com/82385604/160594126-8add8271-e109-46ff-8ded-3d71928277b6.png)
-
+ ![Екранна снимка (3034)](https://user-images.githubusercontent.com/82385604/160594126-8add8271-e109-46ff-8ded-3d71928277b6.png)
  ![Екранна снимка (3046)](https://user-images.githubusercontent.com/82385604/160592508-906aef62-f8ee-4102-b72d-698dbc606c67.png)
  ![Екранна снимка (3051)](https://user-images.githubusercontent.com/82385604/160593006-7635b554-15d8-49c8-a1c7-2495f6087fc2.png)
  ![Екранна снимка (3052)](https://user-images.githubusercontent.com/82385604/160593106-8d17fa89-c116-4240-8625-01f19f660120.png)
+ ![Екранна снимка (3047)](https://user-images.githubusercontent.com/82385604/160594519-88740b2d-d1cf-4084-b7a8-8e90afe31237.png)
+
 
 
 
