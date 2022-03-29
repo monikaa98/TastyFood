@@ -41,6 +41,8 @@ List of all functionalities
  ![Екранна снимка (3045)](https://user-images.githubusercontent.com/82385604/160592448-7231065a-ead6-424a-a790-00d87a9c5336.png)
  ![Екранна снимка (3046)](https://user-images.githubusercontent.com/82385604/160592508-906aef62-f8ee-4102-b72d-698dbc606c67.png)
  ![Екранна снимка (3051)](https://user-images.githubusercontent.com/82385604/160593006-7635b554-15d8-49c8-a1c7-2495f6087fc2.png)
+ ![Екранна снимка (3052)](https://user-images.githubusercontent.com/82385604/160593106-8d17fa89-c116-4240-8625-01f19f660120.png)
+
 
 
 
